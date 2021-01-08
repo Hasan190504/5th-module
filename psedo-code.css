@@ -1,0 +1,20 @@
+#spesal-code:hover{
+    color: green;
+    background-color: indianred;
+    text-align: center; 
+    align-self: inherit;   
+}
+a:visited{
+    color: rgba(77, 238, 14, 0.651);
+    size: 50px;
+}
+.all-idendity-about-work{
+    color: navy;
+    text-align: center;
+}
+li:first-child{
+    color: green;
+}
+li:nth-child(2n){
+    color: indianred;
+}
