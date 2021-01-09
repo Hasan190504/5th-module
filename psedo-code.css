@@ -18,3 +18,21 @@ li:first-child{
 li:nth-child(2n){
     color: indianred;
 }
+h1::before{
+    content: "hossain  ";
+    font-size: 50px;
+    color: khaki;
+}
+li::after{
+    content: "(ABAL)";
+    font-size: 20px;
+}
+/*use countet*/
+body{
+    counter-reset: section;
+}
+p::before{
+    counter-increment: section;
+    content:"crush ";
+    counter(section) ": ";
+}
